@@ -46,6 +46,6 @@ class UsersFragment : Fragment() {
         viewDataBinding.usersList.adapter = listAdapter
 
         viewDataBinding.usersList.layoutManager =
-            StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
+            StaggeredGridLayoutManager(1, StaggeredGridLayoutManager.VERTICAL)
     }
 }

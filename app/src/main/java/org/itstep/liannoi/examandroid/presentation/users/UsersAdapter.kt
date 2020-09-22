@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import org.itstep.liannoi.examandroid.application.storage.models.User
+import org.itstep.liannoi.examandroid.application.storage.users.models.User
 import org.itstep.liannoi.examandroid.databinding.ItemUserBinding
 
 class UsersAdapter constructor(

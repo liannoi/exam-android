@@ -2,7 +2,7 @@ package org.itstep.liannoi.examandroid.presentation.common.extensions
 
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
-import org.itstep.liannoi.examandroid.application.storage.models.User
+import org.itstep.liannoi.examandroid.application.storage.users.models.User
 import org.itstep.liannoi.examandroid.presentation.users.UsersAdapter
 
 @BindingAdapter("app:items")

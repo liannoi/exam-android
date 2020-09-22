@@ -56,6 +56,9 @@ ext {
     rxJavaVersion = "3.0.6"
     rxKotlinVersion = "3.0.0"
     rxAndroidVersion = "3.0.0"
+    rxJavaLegacyVersion = "2.2.19"
+    rxKotlinLegacyVersion = "2.0.0"
+    rxAndroidLegacyVersion = "2.1.1"
 
     hiltAndroidXVersion = "1.0.0-alpha02"
 

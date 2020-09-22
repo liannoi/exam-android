@@ -1,7 +1,7 @@
 package org.itstep.liannoi.examandroid.presentation.users
 
 import androidx.recyclerview.widget.DiffUtil
-import org.itstep.liannoi.examandroid.application.storage.models.User
+import org.itstep.liannoi.examandroid.application.storage.users.models.User
 
 class UserDiffCallback : DiffUtil.ItemCallback<User>() {
 
