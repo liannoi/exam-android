@@ -6,9 +6,9 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "Users")
 data class User constructor(
-    @ColumnInfo(name = "FirstName") val firstName: String = "",
-    @ColumnInfo(name = "LastName") val lastName: String = "",
-    @ColumnInfo(name = "Salary") val salary: Int = 0,
+    @ColumnInfo(name = "FirstName") var firstName: String = "",
+    @ColumnInfo(name = "LastName") var lastName: String = "",
+    @ColumnInfo(name = "Salary") var salary: Int = 0,
     @ColumnInfo(name = "UserId") @PrimaryKey(autoGenerate = true) val id: Int = 0
 ) {
     val formattedSalary: String

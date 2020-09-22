@@ -12,5 +12,5 @@ interface LocalDataSource<TEntity, TKey> {
 
     fun update(entity: TEntity)
 
-    fun delete(id: TKey)
+    fun delete(entity: TEntity)
 }

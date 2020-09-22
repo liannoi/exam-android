@@ -1,7 +1,9 @@
 package org.itstep.liannoi.examandroid.application.storage.users.commands
 
+import org.itstep.liannoi.examandroid.application.storage.users.models.User
+
 class DeleteCommand constructor(
-    val userId: Int
+    val user: User
 ) {
 
     interface Notification {

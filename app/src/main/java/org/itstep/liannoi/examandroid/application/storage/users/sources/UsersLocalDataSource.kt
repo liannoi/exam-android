@@ -15,15 +15,13 @@ class UsersLocalDataSource constructor(
 
     override fun getAll(): Maybe<List<User>> = userDao.getAll()
 
-    override fun getById(id: Int): Maybe<User> {
-        TODO("Not yet implemented")
-    }
+    override fun getById(id: Int): Maybe<User> = userDao.getById(id)
 
     override fun update(entity: User) {
-        TODO("Not yet implemented")
+        userDao.update(entity)
     }
 
-    override fun delete(id: Int) {
-        TODO("Not yet implemented")
+    override fun delete(entity: User) {
+        userDao.delete(entity)
     }
 }

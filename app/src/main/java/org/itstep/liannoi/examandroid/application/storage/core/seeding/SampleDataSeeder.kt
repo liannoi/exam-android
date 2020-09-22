@@ -44,9 +44,8 @@ class SampleDataSeeder constructor(
             (0..100).forEach { _ ->
                 users.add(
                     User(
-                        UUID.randomUUID().toString().take(20),
-                        UUID.randomUUID().toString().take(20),
-                        nextInt(300, 10000)
+                        firstName = UUID.randomUUID().toString().take(20),
+                        salary = nextInt(300, 10000)
                     )
                 )
             }

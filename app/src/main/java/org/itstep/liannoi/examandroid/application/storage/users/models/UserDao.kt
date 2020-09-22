@@ -10,4 +10,7 @@ interface UserDao : BaseDao<User> {
 
     @Query("SELECT * FROM Users")
     fun getAll(): Maybe<List<User>>
+
+    @Query("SELECT * FROM Users WHERE userId = :id")
+    fun getById(id: Int): Maybe<User>
 }

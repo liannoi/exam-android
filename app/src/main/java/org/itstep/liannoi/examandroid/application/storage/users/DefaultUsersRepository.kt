@@ -63,7 +63,7 @@ class DefaultUsersRepository constructor(
     }
 
     override fun delete(request: DeleteCommand, handler: DeleteCommand.Notification) {
-        Completable.fromAction { localDataSource.delete(request.userId) }
+        Completable.fromAction { localDataSource.delete(request.user) }
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe(

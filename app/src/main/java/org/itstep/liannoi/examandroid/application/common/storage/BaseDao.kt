@@ -10,8 +10,8 @@ interface BaseDao<TEntity> {
     fun create(entity: TEntity)
 
     @Update
-    fun update(user: TEntity)
+    fun update(entity: TEntity)
 
     @Delete
-    fun delete(user: TEntity)
+    fun delete(entity: TEntity)
 }
